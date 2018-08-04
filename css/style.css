@@ -5,8 +5,19 @@
   border-radius: 2px;
 }
 .header{
-  background-color: #4196E0;
+  background-color: #07729C;
   color: #fff;
+}
+.description-container {
+  background-color: #B3E5F8;
+  box-shadow: 0 10px #C3C0BA, 0 6px #85A9B4 inset; 
+}
+.about-container {
+  margin-top: 8px;
+}
+.img-shadow {
+  box-shadow: 10px 10px 5px #85A9B4;
+  margin: 10px 0 10px 0;
 }
 
 @media (max-width: 576px) { 
