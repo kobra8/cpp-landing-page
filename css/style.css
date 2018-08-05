@@ -1,10 +1,8 @@
-/* Small devices (landscape phones, 576px and up) */
-.border {
-  border: 1px solid black;
-  padding: 2px;
-  border-radius: 2px;
+
+body {
+  background-color: #D0CDC7;
 }
-.header{
+.title-container{
   background-color: #07729C;
   color: #fff;
 }
@@ -15,33 +13,69 @@
 .about-container {
   margin-top: 8px;
 }
+.author-container {
+  background-color: #E7E6E3;
+  box-shadow: 0 10px #C3C0BA;
+  margin-bottom: 10px;
+}
+.samples-container {
+  background-color: #B3E5F8;
+  box-shadow: 0 10px #C3C0BA;
+  margin-bottom: 10px;
+}
 .img-shadow {
   box-shadow: 10px 10px 5px #85A9B4;
   margin: 10px 0 10px 0;
 }
+.bg-black {
+  background-color: #000;
+}
+.card-color{
+  background-color: #00A7E6;
+  color: #fff;
+  border: 0;
+  border-radius: 12px;
+}
+.logo-footer{
+  width: 120px;
+}
+.author-img{
+  width: 100px;
+}
+
+/* Extra small devices (portrait phones, to 576px) */
 
 @media (max-width: 576px) { 
-  img{
+  .book-img{
     width: 90%;
+    padding: 2px;
+    border-radius: 2px;
   }
 }
 
+/* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) { 
-  img{
+  .book-img{
     width: 80%;
+    padding: 2px;
+    border-radius: 2px;
   }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-  img{
+  .book-img{
     width: 70%;
+    padding: 2px;
+    border-radius: 2px;
   }
  }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-  img{
+  .book-img{
     width: 60%;
+    padding: 2px;
+    border-radius: 2px;
   }
  }
