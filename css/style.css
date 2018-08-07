@@ -8,20 +8,17 @@ body {
 }
 .description-container {
   background-color: #B3E5F8;
-  box-shadow: 0 10px #C3C0BA, 0 6px #85A9B4 inset; 
+  box-shadow: 0 8px 5px #85A9B4 inset; 
 }
-.about-container {
-  margin-top: 8px;
+.about-container, .testimonials-container, .order-container {
+  box-shadow: 0 12px 8px #C3C0BA inset;
 }
 .author-container {
   background-color: #E7E6E3;
-  box-shadow: 0 10px #C3C0BA;
-  margin-bottom: 10px;
+  box-shadow: 0 10px 8px #C3C0BA;
 }
 .samples-container {
   background-color: #B3E5F8;
-  box-shadow: 0 10px #C3C0BA;
-  margin-bottom: 10px;
 }
 .img-shadow {
   box-shadow: 10px 10px 5px #85A9B4;
@@ -42,6 +39,25 @@ body {
 .author-img{
   width: 100px;
 }
+.btn-order{
+  background-color: #FF7805;
+  font-size: 1.6rem;
+  color: #fff;
+  padding: 5px;
+  border-radius: 13px;
+  box-shadow: 8px 8px 5px #C3C0BA;
+}
+.btn-order:hover{
+  background-color: #00A7E6;
+  color: #fff;
+}
+.guarantee-container{
+  background-color: #00A7E6;
+  color: #fff;
+  width: 150px;
+  height: 150px;
+  box-shadow: 2px 5px 4px #C3C0BA;
+}
 
 /* Extra small devices (portrait phones, to 576px) */
 
@@ -50,6 +66,12 @@ body {
     width: 90%;
     padding: 2px;
     border-radius: 2px;
+  }
+  .btn-order{
+    margin-top: 30px;
+  }
+  .guarantee-container{
+    margin: 0 auto;
   }
 }
 
@@ -60,6 +82,12 @@ body {
     padding: 2px;
     border-radius: 2px;
   }
+  .btn-order{
+    margin-top: 30px;
+  }
+  .guarantee-container{
+    margin: 0 auto;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -69,6 +97,13 @@ body {
     padding: 2px;
     border-radius: 2px;
   }
+  .btn-order{
+    margin-top: 160px;
+    margin-bottom: 60px;
+  }
+  .guarantee-container{
+    margin-top: 50px;
+  }
  }
 
 /* Large devices (desktops, 992px and up) */
@@ -77,5 +112,12 @@ body {
     width: 60%;
     padding: 2px;
     border-radius: 2px;
+  }
+  .btn-order{
+    margin-top: 160px;
+    margin-bottom: 60px;
+  }
+  .guarantee-container{
+    margin-top: 50px;
   }
  }
