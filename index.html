@@ -17,36 +17,37 @@
   <div class="container">
 
     <!-- Menu section -->
-    <div class="row">
-      <div class="col-12 pl-0 pr-0">
-        <nav class="navbar navbar-dark navbar-expand-lg bg-black">
-          <div class="collapse navbar-collapse" id="navbarText">
+      <div class="row justify-content-center bg-black">
+        <div class="col-10 pl-0 pr-0">
+        <nav class="navbar navbar-dark navbar-expand-md">
+          <a class="navbar-brand">
+              <img class="logo" src="./img/logoBF.jpg" alt="logoBF">
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="navbar-brand">
-                <img src="./img/logoBF.jpg" alt="logoBF">
+              <li class="nav-item">
+                <a class="nav-link btn menu-btn pr-lg-4 pl-lg-4" href="https://www.bfilipek.com/">Blog</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="https://www.bfilipek.com/">Blog</a>
+                <a class="nav-link btn menu-btn pr-lg-4 pl-lg-4" href="#about-the-book">Book</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about-the-book">Book</a>
+                <a class="nav-link btn menu-btn pr-lg-4 pl-lg-4" href="#samples">Free Samples</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#samples">Free Samples</a>
+                <a class="nav-link btn menu-btn pr-lg-4 pl-lg-4" href="#author">Author</a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#author">Author</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="https://leanpub.com/cpp17indetail">
-                  <strong>Order</strong>
-                </a>
+              <li class="nav-item ">
+                <a class="nav-link btn menu-btn-order pr-4 pl-4" href="https://leanpub.com/cpp17indetail">Order</a>
               </li>
             </ul>
           </div>
         </nav>
     </div>
-  </div>
+  </div> 
     <!-- Title section -->
     <div class="p-3 row title-container justify-content-center">
       <blockquote class="blockquote text-center mr-3">
@@ -72,90 +73,126 @@
     </div>
 
     <!-- About section -->
-    <div class=" row about-container p-4 bg-white">
+    <div class="row about-container p-4 bg-white">
       <h3 id="about-the-book" class="text-center col-12">About the Book</h3>
-      <div class="col-12">
-        <p class="text-justify">The book has its roots in the long series of articles published at my site: bfilipek.com. I started discovering C++17
+      <div class="row">
+        <div class="col-1">
+        </div>
+        <div class="col-10">
+          <p class="text-justify">The book has its roots in the long series of articles published at my site: bfilipek.com. I started discovering C++17
           a few months before it was officially published and I got more and more curious over the time. The content on the
           blog was growing, and I decided to make a single package of those articles.</p>
 
-        <p>Making the book was not so easy, though!</p>
+          <p>Making the book was not so easy, though!</p>
 
-        <p class="text-justify">The initial compilation was quite weak, and I knew that to provide a valuable package for my readers I need to do more
+          <p class="text-justify">The initial compilation was quite weak, and I knew that to provide a valuable package for my readers I need to do more
           work. I rewrote each chapter of this book and reorganised them, so they contain the most relevant content. I’ve added
           tons of new code samples, with a better description and use cases.</p>
 
-        <p>I believe this book might give you a solid start into C++17.</p>
+          <p>I believe this book might give you a solid start into C++17.</p>
 
-        <p>Here are the features you’ll learn:</p>
-
-        <p>Part One: C++17 Language features</p>
-
-        <ul>
-          <li>Fixes and depreciation</li>
-          <li>Language clarification</li>
-          <li>General language features</li>
-          <li>Templates</li>
-          <li>Attributes</li>
-        </ul>
-
-        <p>Part Two: C++17 The Standard Library</p>
-
-        <ul>
-          <li>
-            <code>std::optional</code>
-          </li>
-          <li>
-            <code>std::variant</code>
-          </li>
-          <li>
-            <code>std::any</code>
-          </li>
-          <li>
-            <code>std::string_view</code>
-          </li>
-          <li>String operations</li>
-          <li>Filesystem</li>
-          <li>Parallel STL</li>
-          <li>Other Changes</li>
-        </ul>
-
-        <p>Part Three: More Examples and Use Cases</p>
-
-        <ul>
-          <li>Refactoring with
-            <code>std::optional</code>
-          </li>
-          <li>Using
-            <code>if constexpr</code>
-          </li>
-          <li>…</li>
-          <li>and more planned</li>
-        </ul>
-
-        <p>The book contains now over 200 pages. I plan to rewrite a few more chapters and add some new pieces: especially with
-          larger examples. The final version should have around 250 pages.</p>
-
-        <p>Plans for the final version:</p>
-
-        <ul>
-          <li>Add chapter about string operations</li>
-          <li>Update chapter about Parallel STL</li>
-          <li>Update and rewrite chapter about filesystem</li>
-          <li>Add more examples to the third part.</li>
-          <li>More polishing across the whole book</li>
-        </ul>
+          <p>Here are the features you’ll learn:</p>
+        </div>
+        <div class="col-1">
+        </div>
       </div>
-    </div>
+      <!-- Part one -->
+      <div class="row" style="width: 100%">
+        <div class="col-1">
+            <img src="./img/no1.png" class="img-numbers">
+        </div>
+        <div class="col-10">
+          <p>Part One: C++17 Language features</p>
+          <ul>
+            <li>Fixes and depreciation</li>
+            <li>Language clarification</li>
+            <li>General language features</li>
+            <li>Templates</li>
+            <li>Attributes</li>
+          </ul>
+        </div>
+        <div class="col-1">
+        </div>
+      </div>
+      <!-- Part two -->
+      <div class="row" style="width: 100%">
+        <div class="col-1">
+            <img src="./img/no2.png" class="img-numbers">
+        </div>
+        <div class="col-10">
+          <p>Part Two: C++17 The Standard Library</p>
+          <ul>
+            <li>
+              <code>std::optional</code>
+            </li>
+            <li>
+              <code>std::variant</code>
+            </li>
+            <li>
+              <code>std::any</code>
+            </li>
+            <li>
+              <code>std::string_view</code>
+            </li>
+            <li>String operations</li>
+            <li>Filesystem</li>
+            <li>Parallel STL</li>
+            <li>Other Changes</li>
+          </ul>
+        </div>
+        <div class="col-1">
+        </div>
+      </div>
+      <!-- Part three -->
+        <div class="row">
+          <div class="col-1">
+            <img src="./img/no3.png" class="img-numbers">
+          </div>
+          <div class="col-10">
+            <p>Part Three: More Examples and Use Cases</p>
+            <ul>
+              <li>Refactoring with
+                <code>std::optional</code>
+              </li>
+              <li>Using
+                <code>if constexpr</code>
+              </li>
+              <li>…</li>
+              <li>and more planned</li>
+            </ul>
+
+            <p>The book contains now over 200 pages. I plan to rewrite a few more chapters and add some new pieces: especially with
+              larger examples. The final version should have around 250 pages.</p>
+              <p>Plans for the final version:</p>
+              <ul>
+                <li>Add chapter about string operations</li>
+                <li>Update chapter about Parallel STL</li>
+                <li>Update and rewrite chapter about filesystem</li>
+                <li>Add more examples to the third part.</li>
+                <li>More polishing across the whole book</li>
+              </ul>
+          </div>
+          <div class="col-1">
+          </div>
+        </div>
+      </div>
+      <!-- About footer -->
+      <div class="row bg-white justify-content-end about-footer">
+        <div class="col-md-5 col-sm-12 mb-3">
+          <a role="button" class="btn btn-order d-block" href="https://leanpub.com/cpp17indetail">Order Now @Leanpub</a>  
+        </div>
+        <div class="col-md-3 col-sm-12 mb-3">
+          <div class="rounded-circle guarantee-container p-3 text-center">Including<br>The Leanpub<br>45-day 100%<br>Hapiness<br>Guarentee</div>
+        </div>
+      </div>
 
     <!-- Author section -->
     <div class="row author-container p-4">
       <h3 id="author" class="text-center col-12">Author</h3>
       <div class="col-12">
-        <div class="media ml-3 mr-3 pl-5 pr-5">
-          <img src="./img/author.jpg" class="author-img align-self-start mr-3">
-          <div class="media-body">
-            <p class="text-justify">
+        <div class="ml-3 mr-3 pl-5 pr-5">
+          <p class="text-justify">
+          <img src="./img/author.jpg" class="author-img float-left mr-3">
               <strong>Bartłomiej Filipek</strong> is a C++ software developer with more than 11 years of professional experience. Bartek
               finished Jagiellonian University in Cracow with a Masters Degree in Computer Science.
             </p>
@@ -163,9 +200,7 @@
               He has experience with desktop graphics applications, game development, large-scale systems for aviation, writing graphics
               drivers and even biofeedback.
             </p>
-
-          </div>
-        </div>
+            </div>
         <div class="ml-3 mr-3 pl-5 pr-5">
           <p class="text-justify">
             Since 2011 Bartek has been regularly blogging at his personal website: bfilipek.com. In the early days the topic revolved
@@ -181,6 +216,7 @@
     <!-- Testimonials section -->
     <div class="row testimonials-container justify-content-center pt-3 bg-white">
       <h3 id="testimonials" class="text-center col-12">Testimonials</h3>
+      <!-- Testimonial 1 -->
       <div class="col-md-5 col-sm-12 m-2 p-2">
         <div class="card card-color">
           <div class="card-body">
@@ -189,42 +225,53 @@
           </div>
         </div>
       </div>
-      <div class="col-md-5 col-sm-12 m-2 p-2">
+
+       <!-- Testimonial 2 -->
+      <!-- <div class="col-md-5 col-sm-12 m-2 p-2">
         <div class="card card-color">
           <div class="card-body">
             <p>a few testimonials, in nice boxes...</p>
           </div>
         </div>
-      </div> 
-      <div class="col-md-5 col-sm-12 m-2 p-2">
+      </div>  -->
+
+       <!-- Testimonial 3 -->
+      <!-- <div class="col-md-5 col-sm-12 m-2 p-2">
         <div class="card card-color">
           <div class="card-body">
             <p>a few testimonials, in nice boxes...</p>
           </div>
         </div>
-      </div>
+      </div> -->
+
     </div>
 
     <!-- Samples section -->
-    <div class="row samples-container p-4">
+    <div class="row samples-container p-4 justify-content-center">
       <h3 id="samples" class="text-center col-12">Free Samples</h3>
-      <div class="col-md-4 col-sm-12">
-        <p>Some free chapters, toc, source code...</p>
+      <div class="col-md-3 col-sm-6 m-2">
+        <a href="#">
+          <img src="./img/sample1.jpg">
+        </a>
       </div>
-      <div class="col-md-4 col-sm-12">
-        <p>Some free chapters, toc, source code...</p>
+      <div class="col-md-3 col-sm-6 m-2">
+        <a href="#">
+          <img src="./img/sample2.jpg">
+        </a>
       </div>
-      <div class="col-md-4 col-sm-12">
-        <p>Some free chapters, toc, source code...</p>
+      <div class="col-md-3 col-sm-6 m-2">
+        <a href="#">
+          <img src="./img/sample3.png">
+        </a>
       </div>
     </div>
 
     <!-- Order button section -->
     <div class="row order-container bg-white justify-content-end">
-      <div class="col-md-4 col-sm-12 mb-3">
-        <a role="button" class="btn btn-order d-block" href="https://leanpub.com/cpp17indetail/embed">Order Now @Leanpub</a>  
+      <div class="col-md-5 col-sm-12 mb-3">
+        <a role="button" class="btn btn-order d-block" href="https://leanpub.com/cpp17indetail">Order Now @Leanpub</a>  
       </div>
-      <div class="col-md-4 col-sm-12">
+      <div class="col-md-3 col-sm-12">
         <div class="rounded-circle guarantee-container p-3 mb-3 text-center">Including<br>The Leanpub<br>45-day 100%<br>Hapiness<br>Guarentee</div>
       </div>
     </div>
@@ -234,8 +281,8 @@
       <div class="col-4">
         
       </div>
-      <div class="col-3">
-        <img class="logo-footer ml-md-3 ml-lg-5" src="./img/logoBF.jpg">
+      <div class="col-2">
+        <img class="logo ml-md-3 ml-lg-5" src="./img/logoBF.jpg">
       </div>
     </div>
 
