@@ -43,6 +43,9 @@ body {
 .author-img{
   width: 100px;
 }
+.title-img{
+  width:80%;
+}
 .nav-item{
   padding-left: 10px;
   padding-right: 10px;
