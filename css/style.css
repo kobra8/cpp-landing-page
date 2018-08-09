@@ -2,6 +2,26 @@
 body {
   background-color: #D0CDC7;
 }
+
+#testimonials a:link {
+    color: white;
+}
+
+/* visited link */
+#testimonials a:visited {
+    color: white;
+}
+
+/* mouse over link */
+#testimonials a:hover {
+    color: white;
+}
+
+/* selected link */
+#testimonials a:active {
+    color: white;
+}
+
 .title-container{
   background-color: #2074A3;
   color: #fff;
@@ -9,6 +29,7 @@ body {
 .description-container {
   background-color: #B3E5F8;
   box-shadow: 0 8px 5px #85A9B4 inset; 
+  font-size:larger;
 }
 .about-container, .testimonials-container, .order-container {
   box-shadow: 0 12px 8px #C3C0BA inset;
