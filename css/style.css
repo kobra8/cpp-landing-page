@@ -96,6 +96,24 @@ body {
   background-color: #00A7E6;
   color: #fff;
 }
+.testimonials-link{
+  color: #fff!important;
+}
+.testimonials-link:hover{
+  text-decoration: underline;
+}
+.sample-link{
+  color: #000;
+}
+.sample-link:hover {
+  color: #FF7805;
+  text-decoration: none;
+}
+.single-sample{
+  width: 80%;
+  text-align: center;
+  margin-top: 10px;
+}
 .guarantee-container{
   background-color: #00A7E6;
   color: #fff;
