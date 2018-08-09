@@ -8,17 +8,17 @@ body {
 }
 
 /* visited link */
-#testimonials a:visited {
+.testimonials-container a:visited {
     color: white;
 }
 
 /* mouse over link */
-#testimonials a:hover {
+.testimonials-container a:hover {
     color: white;
 }
 
 /* selected link */
-#testimonials a:active {
+.testimonials-container a:active {
     color: white;
 }
 
